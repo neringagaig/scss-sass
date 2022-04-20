@@ -1,0 +1,26 @@
+body {
+  background-color: #d3d3d3;
+  color: #343434;
+}
+
+.container {
+  background-color: green;
+  padding: 16px;
+}
+
+.container .card {
+  background-color: white;
+  padding: 16px;
+  width: 50%;
+}
+
+.container .card img {
+  width: 100%;
+}
+
+.container .card .time {
+  text-align: right;
+  font-size: 12px;
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */
