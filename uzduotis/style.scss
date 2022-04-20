@@ -1,0 +1,68 @@
+$textColor1: #080f1a;
+$textColor2: #73829e;
+$buttonColor: #303ca5;
+$priceColor: #f4f6fc;
+$fontSize1: 12px;
+$fontSize2: 18px;
+$fontSize3: 28px;
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.cards {
+    display: flex;
+    text-align: center;
+    
+    .card {
+        padding: 36px;
+        border: 1px solid #eee;
+        box-shadow: 1px 2px 2px #eee;
+        width: 25%;
+
+        .until {
+            font-size: $fontSize1;
+        }
+        .price {
+            font-size: $fontSize3;
+            font-weight: 700;
+            background-color: $priceColor;
+            margin: 0 auto;
+            padding: 12px 16px;
+            border-radius: 24px;
+            white-space: nowrap;
+            text-align: center;
+
+            .price-tag {
+                font-size: $fontSize2;
+            }
+        }
+        button {
+            border: 1px solid $buttonColor;
+            border-radius: 6px;
+            padding: 16px;
+            background-color: transparent;
+            color: $buttonColor;
+            white-space: nowrap;
+            text-align: center;
+            font-weight: 400;
+            width: 150px;
+        }
+        .small-info {
+            color: $textColor2;
+            font-size: $fontSize1;
+        }
+        .credit {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+        .features {
+
+            p {
+            border-bottom: 1px dotted #eee;
+            }
+            .free-features {
+                font-weight: 700;
+            }
+        }
+    }
+}

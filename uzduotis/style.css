@@ -1,0 +1,68 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.cards .card {
+  padding: 36px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 1px 2px 2px #eee;
+          box-shadow: 1px 2px 2px #eee;
+  width: 25%;
+}
+
+.cards .card .until {
+  font-size: 12px;
+}
+
+.cards .card .price {
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #f4f6fc;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border-radius: 24px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.cards .card .price .price-tag {
+  font-size: 18px;
+}
+
+.cards .card button {
+  border: 1px solid #303ca5;
+  border-radius: 6px;
+  padding: 16px;
+  background-color: transparent;
+  color: #303ca5;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 400;
+  width: 150px;
+}
+
+.cards .card .small-info {
+  color: #73829e;
+  font-size: 12px;
+}
+
+.cards .card .credit {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.cards .card .features p {
+  border-bottom: 1px dotted #eee;
+}
+
+.cards .card .features .free-features {
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
